@@ -100,7 +100,7 @@ span{
 
 .precios{
     text-align: center;
-    max-width: 55rem;
+    max-width: 60rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4rem;
@@ -112,11 +112,10 @@ span{
     background-color: #F403A0;
     display: inline-block;
     width: 28%;
-    height: 20rem;
+    height: 15rem;
     margin: 1%;
     padding: 2rem;
     border-radius: .5rem;
-    box-shadow: 0px .5rem .5rem rgba(0,0,0, .5);
 }
 
 .precios__item h2{
@@ -126,6 +125,39 @@ span{
 
 .precios__item:hover{
     transform: scale(1.1);
-    box-shadow: 0px 1rem 1rem rgba(0,0,0, .2);
+    box-shadow: 0px 1rem 1rem rgba(0,0,0, .4);
+    background-color: white;
+}
+/*-----noticias---------*/
+
+.noticias{
+    background-image: url(/portada-09.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    max-width: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #6905A6;
+    
+    
+}
+
+.noticias__item{
+    display: inline-block;
+    width: 40%;
+    height: 15rem;
+    margin: 2%;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0px .5rem .5rem rgba(0,0,0, .5);
+}
+
+.noticias__item:hover{
     background-color: white;
 }
